@@ -7,10 +7,12 @@ maximal repetitions present in a sequence.
 ## Description
 
 This script take as principal argument a fasta file and search for all the maximal repeats in the sequence.
-It also take 1 or 2 optional arguments setting the length limits of the repetitions to be searched. If there is
-only one argument, then the search will be limited to repetitions of at least the length spent as an argument.
-If there are two arguments then the search will be limited to repetitions between the two lengths. Without these
-two arguments, it is repetitions larger than 20 that are sought.
+
+It also take 1 or 2 optional arguments setting the length limits of the repetitions to be searched:
+
+- If there is only one argument, then the search will be limited to repetitions of at least the length spent as an argument.
+
+- If there are two arguments then the search will be limited to repetitions between the two lengths. Without these two arguments, it is repetitions larger than 20 that are sought.
 
 
 ## Extensions
