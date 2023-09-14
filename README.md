@@ -1,10 +1,5 @@
-# maximal_repeats
-'''
-Author : Ndèye Khoudia Thiam
-Mail: ndeye.thiam.etu@univ-lille.fr
 
-'''
-# Maximal_repeats POO1
+# Maximal_repeats 
 
 This program is a solution to Rosalind's problem about maximal repeats. From a fasta file, it's return the 
 maximal repetitions present in a sequence.
@@ -165,3 +160,6 @@ Due to a lack of optimization of the program(in this case the number of loops us
  entered (to 20 by default) to the length of the sequence filled in. So the time he'll take to resolve a sequence
  of 100pb sequence will be shorter than the time taken for a 35000pb sequence. 
 
+## Contact
+
+If you found an issue or would like to submit an improvment to this project , you can contact me via [LinkedIn](https://www.linkedin.com/in/ndeye-khoudia-thiam/) or by email (khoudiathiampro@gmail.com)
