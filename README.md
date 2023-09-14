@@ -51,26 +51,47 @@ python3 maximal_repeats sequencetest.txt 20 30
 Let's take the exemple of the sequence of 18S rRNA of Saccharomyces cerevisiae. The software REPuter ,
 who can show all the maximal repeats in a sequence , show the following results:
 
-9  479 F     9 1514  0 3.21e+00
+
+9  479 F     9 1514  0 3.21e+00 
+
 9  649 F     9 1435  0 3.21e+00
+
 9  759 F     9  897  0 3.21e+00
+
 9  886 F     9 1302  0 3.21e+00
+
 8   26 F     8 1466  0 1.28e+01
+
 8   31 F     8  878  0 1.28e+01
+
 8   36 F     8 1603  0 1.28e+01
+
 8   98 F     8  521  0 1.28e+01
+
 8  214 F     8 1218  0 1.28e+01
+
 8  291 F     8 1339  0 1.28e+01
+
 8  305 F     8 1141  0 1.28e+01
+
 8  334 F     8 1114  0 1.28e+01
+
 8  370 F     8  716  0 1.28e+01
+
 8  446 F     8 1496  0 1.28e+01
+
 8  474 F     8 1276  0 1.28e+01
+
 8  724 F     8 1503  0 1.28e+01
+
 8  991 F     8 1208  0 1.28e+01
+
 8 1047 F     8 1393  0 1.28e+01
+
 8 1124 F     8 1253  0 1.28e+01
+
 8 1250 F     8 1627  0 1.28e+01
+
 
 
 After launching this command line :
@@ -79,13 +100,21 @@ After launching this command line :
 python3 maximal_repeats sacc.fasta 8
 ```
 the results are :
+
 GTGAAACT 8
+
 26 ('A', 'G') 1466 ('T', 'C') 31 ('A', 'T') 878 ('T', 'A') 36 ('C', 'C') 1603 ('T', 'T')
+
 98 ('T', 'T') 521 ('C', 'C') 214 ('C', 'T') 1218 ('T', 'G') 291 ('T', 'C') 1339 ('C', 'G') 
+
 305 ('A', 'T') 1141 ('C', 'A') 334 ('G', 'A') 1114 ('T', 'C') 370 ('C', 'C') 716 ('A', 'T') 
+
 446 ('C', 'G') 1496 ('A', 'A') 474 ('T', 'G') 1276 ('G', 'C') 724 ('G', 'G') 1503 ('T', 'T') 
+
 991 ('C', 'T') 1208 ('T', 'G') 1047 ('G', 'G') 1393 ('C', 'C') 1124 ('G', 'T') 1253 ('T', 'G')
+
 1250 ('G', 'A') 1627 ('A', 'G') AACGAGGAA 9 479 ('T', 'C') 1514 ('C', 'T') 649 ('G', 'A') 1435 
+
 ('T', 'G') 759 ('T', 'G') 897 ('A', 'T') 886 ('A', 'C') 1302 ('T', 'T')
 
 Indeed, we notice that all the different occurences are shown, but not in a order way.
