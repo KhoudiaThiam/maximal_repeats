@@ -79,10 +79,12 @@ GTGAAACT 8
 Indeed, we notice that all the different occurences are shown, but not in order .
 
 
-For the sequence initially giving as test (sequencetest.txt) , the results are pretty much conform with 
-the results excepted. The results excepted are :
+For the sequence initially giving as test (sequencetest.txt) , the results are pretty much conform with the results excepted.
+
+The results excepted are :
 
 $ python3 maximal_repeats.py test.fasta 20 30
+
 ATGGGTCCAGAGTTTTGTAATTT 23 10 (A,C) 35 (C,A) 74 (A,C) 99 (C,A)
 
 
@@ -104,13 +106,17 @@ Let's take another exemple. We're doing the test with a random sequence of DNA c
 python3 maximal_repeats random.txt 
 ```
 The program will only take the words with a length superior to 20 
+
 The results from REPuter with a minimal length of 20 gives us :
 
 22  24 F 22  99  0 3.50e-10
 
 Our command line will give us the results :
+
 TAGACATAGCGATCATCAGACA 22 
+
 24 ('C', 'T')
+
 99 ('T', 'C')
 
 These three comparaisons show us that the program works effectively. Only the output format will differ from 
@@ -119,10 +125,7 @@ the two programs
 
 ## Program Weakness
 
-Due to a lack of optimization of the program(in this case the number of loops used in the different functions)
- this program is only able to take small sequences. Indeed, it will search for all words ranging from the number
- entered (to 20 by default) to the length of the sequence filled in. So the time he'll take to resolve a sequence
- of 100pb sequence will be shorter than the time taken for a 35000pb sequence. 
+Due to a lack of optimization of the program(in this case the number of loops used in the different functions) , this program is only able to take small sequences. Indeed, it will search for all words ranging from the number entered (to 20 by default) to the length of the sequence filled in. So the time he'll take to resolve a sequence of 100pb sequence will be shorter than the time taken for a 35000pb sequence. 
 
 ## Contact
 
